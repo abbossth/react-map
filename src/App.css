@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-bottom: 2px solid #ddd;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+header p {
+  font-size: 16px;
+  color: #555;
+}
+
+.profile-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+  padding: 16px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.profile-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+.profile-card h2 {
+  font-size: 20px;
+  color: #333;
+}
+
+.profile-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: left;
+  max-width: 200px;
+  margin: 16px auto;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.product-card p {
+  font-size: 16px;
+  color: #28a745;
+  font-weight: bold;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
